@@ -2,18 +2,22 @@ import React, { useEffect, useState } from 'react'
 import { nextCase } from '../utils/api';
 
 function Case() {
-    const { currentCase, setCurrentCase } = useState({});
-    const { labels, setLabels } = useState([]);
+    const [currentCase, setCurrentCase] = useState({});
+    const [labels, setLabels] = useState([]);
 
     useEffect(() => {
         nextCase().then(data => {
             setCurrentCase(data);
         })
     },[])
+
+    useEffect(()=>{
+
+    },[])
     
     return (
         <div>
-            Case
+            {currentCase?.description}
         </div>
     )
 }
