@@ -8,6 +8,8 @@ export class Label {
   @Prop()
   name: string;
 
+  @Prop()
+  code: string;
 }
 
 export const LabelSchema = SchemaFactory.createForClass(Label);
