@@ -1,11 +1,10 @@
-import { Module } from '@nestjs/common';
+import { MiddlewareConsumer, Module, RequestMethod } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
 import { ConfigModule } from '@nestjs/config';
-// import { AppController } from './app.controller';
-// import { AppService } from './app.service';
 import { UserModule } from './user/user.module';
 import { LabelModule } from './label/label.module';
 import { CaseModule } from './case/case.module';
+import { AuthMiddleware } from './middleware/authorization';
 
 @Module({
   imports: [
@@ -18,4 +17,14 @@ import { CaseModule } from './case/case.module';
   controllers: [],
   providers: [],
 })
-export class AppModule {}
+export class AppModule {
+  configure(consumer: MiddlewareConsumer){
+    consumer
+      .apply(AuthMiddleware)
+      .forRoutes(
+        {path: 'case', method: RequestMethod.GET},
+        {path: 'case/*', method: RequestMethod.PATCH},
+        {path: 'label', method: RequestMethod.GET}
+      )
+  }
+}
