@@ -9,7 +9,7 @@ export type CaseDocument = Case & Document;
 @Schema()
 export class Case {
   @Prop()
-  name: string;
+  description: string;
 
   @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'User'})
   user: User;
@@ -17,6 +17,8 @@ export class Case {
   @Prop({ type: mongoose.Schema.Types.ObjectId, ref: 'Label'})
   label: Label;
 
+  @Prop()
+  labelTime: Number;
 
 }
 
