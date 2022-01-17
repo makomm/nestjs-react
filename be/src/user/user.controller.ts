@@ -8,13 +8,10 @@ export class UserController {
 
   @Post()
   async login(@Body() userDto: UserDto){
-    const token = await this.userService.login(userDto);
+    const result = await this.userService.login(userDto);
     
-    if(!token) throw new HttpException('Bad Credentials.', HttpStatus.UNAUTHORIZED);
+    if(!result) throw new HttpException('Bad Credentials.', HttpStatus.UNAUTHORIZED);
 
-    return {
-      token,
-      login: userDto.login
-    }
+    return result
   }
 }

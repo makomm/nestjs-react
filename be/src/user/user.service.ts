@@ -13,7 +13,12 @@ export class UserService {
         const dbUser = await this.userModel.findOne().where('login').equals(user.login);
         const validPassword = await comparePassword(user.password, dbUser.password);
         if(validPassword) {
-            return generateJWT({ _id: dbUser._id, login: dbUser.login });
+            const token = generateJWT({ _id: dbUser._id, login: dbUser.login });
+            return {
+                token,
+                login: dbUser.login,
+                _id: dbUser._id
+            }
         }
     }
 }
