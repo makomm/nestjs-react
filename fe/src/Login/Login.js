@@ -1,13 +1,14 @@
 import React from 'react'
 import { Form, Input, Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
+import { login } from '../utils/api';
 
 function Login() {
+    const navigate = useNavigate();
     const onFinish = (values) => {
-        
-    };
-
-    const onFinishFailed = (errorInfo) => {
+        login(values).then(() => {
+            navigate('/case');
+        })
     };
 
     return (
@@ -24,12 +25,11 @@ function Login() {
                     remember: true,
                 }}
                 onFinish={onFinish}
-                onFinishFailed={onFinishFailed}
                 autoComplete="off"
             >
                 <Form.Item
                     label="Username"
-                    name="username"
+                    name="login"
                     rules={[
                         {
                             required: true,
