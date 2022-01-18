@@ -1,0 +1,490 @@
+[
+    {
+      "code": "A09",
+      "name": "Infectious gastroenteritis and colitis, unspecified"
+    },
+    {
+      "code": "A64",
+      "name": "Unspecified sexually transmitted disease"
+    },
+    {
+      "code": "B300",
+      "name": "Keratoconjunctivitis due to adenovirus"
+    },
+    {
+      "code": "B302",
+      "name": "Viral pharyngoconjunctivitis"
+    },
+    {
+      "code": "B308",
+      "name": "Other viral conjunctivitis"
+    },
+    {
+      "code": "B309",
+      "name": "Viral conjunctivitis, unspecified"
+    },
+    {
+      "code": "B373",
+      "name": "Candidiasis of vulva and vagina"
+    },
+    {
+      "code": "B9789",
+      "name": "Other viral agents as the cause of diseases classified elsewhere"
+    },
+    {
+      "code": "E860",
+      "name": "Dehydration"
+    },
+    {
+      "code": "F340",
+      "name": "Cyclothymic disorder"
+    },
+    {
+      "code": "F341",
+      "name": "Dysthymic disorder"
+    },
+    {
+      "code": "F39",
+      "name": "Unspecified mood [affective] disorder"
+    },
+    {
+      "code": "F411",
+      "name": "Generalized anxiety disorder"
+    },
+    {
+      "code": "F418",
+      "name": "Other specified anxiety disorders"
+    },
+    {
+      "code": "F419",
+      "name": "Anxiety disorder, unspecified"
+    },
+    {
+      "code": "F4321",
+      "name": "Adjustment disorder with depressed mood"
+    },
+    {
+      "code": "G43001",
+      "name": "Migraine without aura, not intractable, with status migrainosus"
+    },
+    {
+      "code": "G43009",
+      "name": "Migraine without aura, not intractable, without status migrainosus"
+    },
+    {
+      "code": "G43019",
+      "name": "Migraine without aura, intractable, without status migrainosus"
+    },
+    {
+      "code": "G43501",
+      "name": "Persistent migraine aura without cerebral infarction, not intractable, with status migrainosus"
+    },
+    {
+      "code": "G43509",
+      "name": "Persistent migraine aura without cerebral infarction, not intractable, without status migrainosus"
+    },
+    {
+      "code": "G43519",
+      "name": "Persistent migraine aura without cerebral infarction, intractable, without status migrainosus"
+    },
+    {
+      "code": "G43701",
+      "name": "Chronic migraine without aura, not intractable, with status migrainosus"
+    },
+    {
+      "code": "G43709",
+      "name": "Chronic migraine without aura, not intractable, without status migrainosus"
+    },
+    {
+      "code": "G43711",
+      "name": "Chronic migraine without aura, intractable, with status migrainosus"
+    },
+    {
+      "code": "G43719",
+      "name": "Chronic migraine without aura, intractable, without status migrainosus"
+    },
+    {
+      "code": "G43809",
+      "name": "Other migraine, not intractable, without status migrainosus"
+    },
+    {
+      "code": "G43811",
+      "name": "Other migraine, intractable, with status migrainosus"
+    },
+    {
+      "code": "G43819",
+      "name": "Other migraine, intractable, without status migrainosus"
+    },
+    {
+      "code": "G43829",
+      "name": "Menstrual migraine, not intractable, without status migrainosus"
+    },
+    {
+      "code": "G43909",
+      "name": "Migraine, unspecified, not intractable, without status migrainosus"
+    },
+    {
+      "code": "G43911",
+      "name": "Migraine, unspecified, intractable, with status migrainosus"
+    },
+    {
+      "code": "G43919",
+      "name": "Migraine, unspecified, intractable, without status migrainosus"
+    },
+    {
+      "code": "G44209",
+      "name": "Tension-type headache, unspecified, not intractable"
+    },
+    {
+      "code": "G44219",
+      "name": "Episodic tension-type headache, not intractable"
+    },
+    {
+      "code": "G4700",
+      "name": "Insomnia, unspecified"
+    },
+    {
+      "code": "G4701",
+      "name": "Insomnia due to medical condition"
+    },
+    {
+      "code": "G5600",
+      "name": "Carpal tunnel syndrome, unspecified upper limb"
+    },
+    {
+      "code": "H10029",
+      "name": "Other mucopurulent conjunctivitis, unspecified eye"
+    },
+    {
+      "code": "H1033",
+      "name": "Unspecified acute conjunctivitis, bilateral"
+    },
+    {
+      "code": "H1044",
+      "name": "Vernal conjunctivitis"
+    },
+    {
+      "code": "H1045",
+      "name": "Other chronic allergic conjunctivitis"
+    },
+    {
+      "code": "H10509",
+      "name": "Unspecified blepharoconjunctivitis, unspecified eye"
+    },
+    {
+      "code": "H10819",
+      "name": "Pingueculitis, unspecified eye"
+    },
+    {
+      "code": "H1089",
+      "name": "Other conjunctivitis"
+    },
+    {
+      "code": "H109",
+      "name": "Unspecified conjunctivitis"
+    },
+    {
+      "code": "H6020",
+      "name": "Malignant otitis externa, unspecified ear"
+    },
+    {
+      "code": "H60339",
+      "name": "Swimmer's ear, unspecified ear"
+    },
+    {
+      "code": "H60399",
+      "name": "Other infective otitis externa, unspecified ear"
+    },
+    {
+      "code": "H6500",
+      "name": "Acute serous otitis media, unspecified ear"
+    },
+    {
+      "code": "H65119",
+      "name": "Acute and subacute allergic otitis media (mucoid) (sanguinous) (serous), unspecified ear"
+    },
+    {
+      "code": "H65199",
+      "name": "Other acute nonsuppurative otitis media, unspecified ear"
+    },
+    {
+      "code": "H6520",
+      "name": "Chronic serous otitis media, unspecified ear"
+    },
+    {
+      "code": "H65499",
+      "name": "Other chronic nonsuppurative otitis media, unspecified ear"
+    },
+    {
+      "code": "H6590",
+      "name": "Unspecified nonsuppurative otitis media, unspecified ear"
+    },
+    {
+      "code": "H66009",
+      "name": "Acute suppurative otitis media without spontaneous rupture of ear drum, unspecified ear"
+    },
+    {
+      "code": "H66019",
+      "name": "Acute suppurative otitis media with spontaneous rupture of ear drum, unspecified ear"
+    },
+    {
+      "code": "H663X9",
+      "name": "Other chronic suppurative otitis media, unspecified ear"
+    },
+    {
+      "code": "H6640",
+      "name": "Suppurative otitis media, unspecified, unspecified ear"
+    },
+    {
+      "code": "H6690",
+      "name": "Otitis media, unspecified, unspecified ear"
+    },
+    {
+      "code": "J00",
+      "name": "Acute nasopharyngitis [common cold]"
+    },
+    {
+      "code": "J0100",
+      "name": "Acute maxillary sinusitis, unspecified"
+    },
+    {
+      "code": "J0110",
+      "name": "Acute frontal sinusitis, unspecified"
+    },
+    {
+      "code": "J0130",
+      "name": "Acute sphenoidal sinusitis, unspecified"
+    },
+    {
+      "code": "J0140",
+      "name": "Acute pansinusitis, unspecified"
+    },
+    {
+      "code": "J0190",
+      "name": "Acute sinusitis, unspecified"
+    },
+    {
+      "code": "J029",
+      "name": "Acute pharyngitis, unspecified"
+    },
+    {
+      "code": "J060",
+      "name": "Acute laryngopharyngitis"
+    },
+    {
+      "code": "J069",
+      "name": "Acute upper respiratory infection, unspecified"
+    },
+    {
+      "code": "J209",
+      "name": "Acute bronchitis, unspecified"
+    },
+    {
+      "code": "J301",
+      "name": "Allergic rhinitis due to pollen"
+    },
+    {
+      "code": "J3081",
+      "name": "Allergic rhinitis due to animal (cat) (dog) hair and dander"
+    },
+    {
+      "code": "J36",
+      "name": "Peritonsillar abscess"
+    },
+    {
+      "code": "J40",
+      "name": "Bronchitis, not specified as acute or chronic"
+    },
+    {
+      "code": "J411",
+      "name": "Mucopurulent chronic bronchitis"
+    },
+    {
+      "code": "J42",
+      "name": "Unspecified chronic bronchitis"
+    },
+    {
+      "code": "J45901",
+      "name": "Unspecified asthma with (acute) exacerbation"
+    },
+    {
+      "code": "J45902",
+      "name": "Unspecified asthma with status asthmaticus"
+    },
+    {
+      "code": "K210",
+      "name": "Gastro-esophageal reflux disease with esophagitis"
+    },
+    {
+      "code": "K219",
+      "name": "Gastro-esophageal reflux disease without esophagitis"
+    },
+    {
+      "code": "K2900",
+      "name": "Acute gastritis without bleeding"
+    },
+    {
+      "code": "K2920",
+      "name": "Alcoholic gastritis without bleeding"
+    },
+    {
+      "code": "K2960",
+      "name": "Other gastritis without bleeding"
+    },
+    {
+      "code": "K5900",
+      "name": "Constipation, unspecified"
+    },
+    {
+      "code": "K5901",
+      "name": "Slow transit constipation"
+    },
+    {
+      "code": "K5902",
+      "name": "Outlet dysfunction constipation"
+    },
+    {
+      "code": "K649",
+      "name": "Unspecified hemorrhoids"
+    },
+    {
+      "code": "K8019",
+      "name": "Calculus of gallbladder with other cholecystitis with obstruction"
+    },
+    {
+      "code": "K8020",
+      "name": "Calculus of gallbladder without cholecystitis without obstruction"
+    },
+    {
+      "code": "K8021",
+      "name": "Calculus of gallbladder without cholecystitis with obstruction"
+    },
+    {
+      "code": "K8042",
+      "name": "Calculus of bile duct with acute cholecystitis without obstruction"
+    },
+    {
+      "code": "K8050",
+      "name": "Calculus of bile duct without cholangitis or cholecystitis without obstruction"
+    },
+    {
+      "code": "K8051",
+      "name": "Calculus of bile duct without cholangitis or cholecystitis with obstruction"
+    },
+    {
+      "code": "L240",
+      "name": "Irritant contact dermatitis due to detergents"
+    },
+    {
+      "code": "L242",
+      "name": "Irritant contact dermatitis due to solvents"
+    },
+    {
+      "code": "L250",
+      "name": "Unspecified contact dermatitis due to cosmetics"
+    },
+    {
+      "code": "L251",
+      "name": "Unspecified contact dermatitis due to drugs in contact with skin"
+    },
+    {
+      "code": "L253",
+      "name": "Unspecified contact dermatitis due to other chemical products"
+    },
+    {
+      "code": "L255",
+      "name": "Unspecified contact dermatitis due to plants, except food"
+    },
+    {
+      "code": "L259",
+      "name": "Unspecified contact dermatitis, unspecified cause"
+    },
+    {
+      "code": "M25539",
+      "name": "Pain in unspecified wrist"
+    },
+    {
+      "code": "M5430",
+      "name": "Sciatica, unspecified side"
+    },
+    {
+      "code": "N730",
+      "name": "Acute parametritis and pelvic cellulitis"
+    },
+    {
+      "code": "N733",
+      "name": "Female acute pelvic peritonitis"
+    },
+    {
+      "code": "N739",
+      "name": "Female pelvic inflammatory disease, unspecified"
+    },
+    {
+      "code": "N912",
+      "name": "Amenorrhea, unspecified"
+    },
+    {
+      "code": "N920",
+      "name": "Excessive and frequent menstruation with regular cycle"
+    },
+    {
+      "code": "N921",
+      "name": "Excessive and frequent menstruation with irregular cycle"
+    },
+    {
+      "code": "N924",
+      "name": "Excessive bleeding in the premenopausal period"
+    },
+    {
+      "code": "N930",
+      "name": "Postcoital and contact bleeding"
+    },
+    {
+      "code": "N946",
+      "name": "Dysmenorrhea, unspecified"
+    },
+    {
+      "code": "R079",
+      "name": "Chest pain, unspecified"
+    },
+    {
+      "code": "R109",
+      "name": "Unspecified abdominal pain"
+    },
+    {
+      "code": "R21",
+      "name": "Rash and other nonspecific skin eruption"
+    },
+    {
+      "code": "R42",
+      "name": "Dizziness and giddiness"
+    },
+    {
+      "code": "S53449A",
+      "name": "Ulnar collateral ligament sprain of unspecified elbow, initial encounter"
+    },
+    {
+      "code": "S63519A",
+      "name": "Sprain of carpal joint of unspecified wrist, initial encounter"
+    },
+    {
+      "code": "S63599A",
+      "name": "Other specified sprain of unspecified wrist, initial encounter"
+    },
+    {
+      "code": "S638X9A",
+      "name": "Sprain of other part of unspecified wrist and hand, initial encounter"
+    },
+    {
+      "code": "S93419A",
+      "name": "Sprain of calcaneofibular ligament of unspecified ankle, initial encounter"
+    },
+    {
+      "code": "S93429A",
+      "name": "Sprain of deltoid ligament of unspecified ankle, initial encounter"
+    },
+    {
+      "code": "S93439A",
+      "name": "Sprain of tibiofibular ligament of unspecified ankle, initial encounter"
+    }
+  ]
