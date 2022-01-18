@@ -2,6 +2,7 @@ import React from 'react'
 import { Form, Input, Button } from 'antd';
 import { useNavigate } from 'react-router-dom';
 import { login } from '../utils/api';
+import './Login.css';
 
 function Login() {
     const navigate = useNavigate();
@@ -12,7 +13,7 @@ function Login() {
     };
 
     return (
-        <div>
+        <div className="login">
             <Form
                 name="basic"
                 labelCol={{

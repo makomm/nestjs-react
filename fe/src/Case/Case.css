@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+.case_user {
+    padding-right: 10px;
+    border-right: 2px solid;
+}
+
+.case_logout {
+    padding: 0 10px;
+}
+
+.case_details {
+    width: 80%;
+    margin: 60px auto;
+}
+
+.case_form_action {
+    justify-content: end;
+}
+
+.case_description {
+    text-align: left;
+    padding: 20px;  
+}
+
+#select-multiple-native{
+    height: 400px;
+}

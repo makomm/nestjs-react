@@ -31,20 +31,21 @@ export async function nextCase() {
     }).then(response=>response.data)
 }
 
-export async function labelCase(labelId, caseId) {
+export async function labelCase(labelId, caseId, labelTime) {
     const token = localStorage.getItem('token');
     const userId = localStorage.getItem('userId');
     const payload = {
         label: labelId,
         user: userId,
+        labelTime
     }
 
     return await client({
-        method: "POST",
+        method: "PATCH",
         url: `/case/${caseId}`,
         data: payload,
         headers:{
-            "Authoriation": token
+            "Authorization": token
         }
     })
 }
@@ -58,4 +59,10 @@ export async function label() {
             "Authorization": token
         }
     }).then(response=>response.data)
+}
+
+export function cleartoken() {
+    localStorage.removeItem("token");
+    localStorage.removeItem('login');
+    localStorage.removeItem('userId');
 }
