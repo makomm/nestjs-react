@@ -70,8 +70,8 @@ function Case() {
                             {currentCase?.description}
                         </div>
                     </Col>
-                    <Col span={6} >
-                        <FormControl sx={{ m: 1, minWidth: 400, maxWidth: 500 }}>
+                    <Col span={10} >
+                        <FormControl sx={{ m: 1, minWidth: 550, maxWidth: 600 }}>
                             <InputLabel shrink htmlFor="select-multiple-native">
                                 Select Condition
                             </InputLabel>
