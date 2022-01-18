@@ -15,10 +15,12 @@ To install and run the application you must use the commands:
 	npm install
 	npm run start
 
-It will be running in the same port you configured in you `.env` file
+It will be running in the same port you configured in you `.env` file.
+
+You can find database samples to populate Mongo under `databa-samples` folder.
 
 ## Frontend
-The frontend is built using React (Node v14.18).
+The frontend is under `fe/` and is built using React (Node v14.18).
 
 ### How to run
 You will also need to create a `.env` file and set the following vars:
